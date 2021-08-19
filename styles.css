@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+body{
+    background-color:#A5B4FC
+}
+
+.nav-bar{
+    text-align: center;
+    padding:1.5rem;
+    background-color: khaki;
+
+}
+.nav-pills{
+    padding: 1.5rem;
+    margin:auto;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+body
+
+.container{
+    padding: 1rem;
+    text-align: center;
+    min-height: 72vh;
+    position: relative;
+
+}
+
+.heading{
+    padding: 1rem;
+}
+
+.card-list{
+    padding: 2rem;
+}
+
+.card-item{
+    display:inline-table;
+    max-width: 250px;
+    height:300px;
+    word-wrap:break-word;
+    padding:1rem;
+    margin: 0.5rem;
+    border: 2px solid khaki;
+    background-color: khaki;
+    border-radius: 1rem;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    
+}
+
+.card-text{
+    padding: 0.5rem;
+}
+
+.card-link{
+    padding: 0.5rem;
+    border: 1px solid #7C3AED;
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+
+
+.footer{
+    text-align: center;
+    position: absolute;
+    margin: 0 auto;
+    padding: 2rem;
+    position:relative;
+    background-color:#A5B4FC;
+    
+}
+.footer-list{
+    padding: 1rem;
+    list-style: none;
+}
+
+.list-item{
+    display: inline;
+    padding: 1rem;
+    font-size: 1.1rem;
+    
+}
+
+a{
+    text-decoration: none;
+}
