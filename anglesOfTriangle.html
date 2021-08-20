@@ -4,36 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculate Area</title>
+    <title>Is it a triangle ?</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav class="nav-bar">
         <a class="nav-pills" href="index.html">Home</a>
-        <a class="nav-pills" href="anglesOfTriangle.html">Angles</a>
+        <a class="nav-pills link-active" href="anglesOfTriangle.html">Angles</a>
         <a class="nav-pills" href="calculateHypotenuse.html">Hypotenuse</a>
-        <a class="nav-pills link-active"
-        href="calculateArea.html">Area</a>
+        <a class="nav-pills"
+        href="calculateArea.html">Area</Area></a>
         <a class="nav-pills"
         href="triangleQuiz.html">Quiz</a>
     </nav>
 
     <div class="container">
-        <h1 class="heading">Calculate area of Triangle</h1>
+        <h1 class="heading">Is it a Triangle?</h1>
         <div class="triangle-image">
-            <img src="/images/triangle-area.png" alt="triangle with angles">
+            <img src="/images/triangle-angles.png" alt="triangle with angles">
         </div>
         <div class="form">
-            <lable class="label" for="triangle-base">Base =</lable>
-            <input class="input-fields" type="number" id="triangle-base" required>
+            <lable class="label" for="first-angle">Angle 1 =</lable>
+            <input class="input-fields"  type="number" id="first-angle" min="1" max="180" required>
 
-            <label class="label" for="triangle-height">Height =</label>
-            <input class="input-fields" type="number" id="triangle-height" required>
-            
+            <label class="label" for="second-angle">Angle 2 =</label>
+            <input class="input-fields"  type="number" id="second-angle" min="1" max="180" required>
+
+            <label class="label" for="third-angle">Angle 3 =</label>
+            <input class="input-fields"  type="number" id="third-angle" min="1" max="180" required>
             <button id="btn-check">check</button>
         </div>
         <div class="output-div">
-            <div id="triangle-area">
+            <div id="isTriangle">
                 Output will be shown here
             </div>
         </div>

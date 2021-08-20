@@ -9,7 +9,8 @@
 }
 
 body{
-    background-color:#A5B4FC
+    background-color:#A5B4FC;
+    /* background-color: #7b8de4; */
 }
 
 .nav-bar{
@@ -32,7 +33,6 @@ body
     text-align: center;
     min-height: 72vh;
     position: relative;
-
 }
 
 .heading{
@@ -69,6 +69,79 @@ body
 }
 
 
+/* Is a triangle */
+.triangle-image{
+    max-width: 600px;
+    margin:0 auto;
+    
+}
+.triangle-image img{
+    width: 35%;
+    padding-bottom:0.5rem;
+}
+
+.label{
+    display:block;
+    margin: 0.5rem auto;
+}
+
+.input-fields{
+    display:inline-block;
+    padding: 0.5rem 1rem;
+    width: 250px;
+    background-color:#e3e7fa;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    outline:none;
+}
+
+#btn-check{
+    display: block;
+    padding: 0.5rem 1.5rem;
+    border:1px solid rgb(238, 225, 113);
+    border-radius: 1rem;
+    margin: 1rem auto;
+    background-color: khaki;
+}
+
+.output-div{
+    padding: 1rem;
+    margin: 1.5rem auto;
+    background-color:#e3e7fa;
+    border:1px solid black;
+    color: black;
+    
+    /* border: 2px solid rgb(131, 30, 131); */
+    border-radius: 1rem;
+    max-width: 600px;
+  
+}
+
+.question-box{
+    background-color:rgb(252, 232, 206);
+    border-radius: 1rem;
+    border: 2px solid rgb(250, 206, 148);
+    padding: 1rem;
+    margin: 1rem auto;
+    text-align:start;
+    max-width: 650px;
+    
+      
+}
+.quiz-question{
+    font-size: 1.3rem;
+}
+
+.option-set{
+    margin-top:0.8rem;
+}
+
+.quiz-labels{
+    padding:0.8rem;
+    
+}
+
+
 .footer{
     text-align: center;
     position: absolute;
@@ -93,3 +166,13 @@ body
 a{
     text-decoration: none;
 }
+
+a:active{
+    color:rgb(78, 38, 78);
+}
+
+
+.link-active{
+    font-weight:bolder;
+}
+

@@ -4,24 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calcula Hypotenuse</title>
+    <title>Calculate Area</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav class="nav-bar">
-        <a class="nav-pills links" href="index.html">Home</a>
-        <a class="nav-pills links" href="sumOfAngles.html">Angles</a>
-        <a class="nav-pills links" href="calculateHypotenuse.html">Hypotenuse</a>
-        <a class="nav-pills links"
-        href="calculateArea.html">Area</Area></a>
-        <a class="nav-pills links"
+        <a class="nav-pills" href="index.html">Home</a>
+        <a class="nav-pills" href="anglesOfTriangle.html">Angles</a>
+        <a class="nav-pills link-active" href="calculateHypotenuse.html">Hypotenuse</a>
+        <a class="nav-pills"
+        href="calculateArea.html">Area</a>
+        <a class="nav-pills"
         href="triangleQuiz.html">Quiz</a>
     </nav>
 
     <div class="container">
-        <h1 class="heading">Calculate Hypotenuse</h1>
-        <div class="card-list">
+        <h1 class="heading">Calculate hypotenuse of Triangle</h1>
+        <div class="triangle-image">
+            <img src="/images/triangle-pythagoras.png" alt="triangle with angles">
         </div>
+        <div class="form">
+            <lable class="label" for="triangle-base">side a =</lable>
+            <input class="input-fields" type="number" id="side-a" required>
+
+            <label class="label" for="side-b">side b =</label>
+            <input class="input-fields" type="number" id="side-b" required>
+            
+            <button id="btn-check">check</button>
+        </div>
+        <div class="output-div">
+            <div id="triangle-hypotenuse">
+                Output will be shown here
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <ul class="footer-list">
+            <li class=" list-item"><a class="links" href="https://linkedin.com/in/pradipgharge"><img src="/images/linkedin.svg"></a></li>
+
+            <li class="list-item"><a class="links" href="https://twitter.com/pradipgharge"><img src="/images/twitter.svg"></a></li>
+
+            <li class="list-item"><a class="links" href="https://github.com/pradipgharge"><img src="/images/github.svg"></a></li>
+
+            <li class="list-item"><a class="links" href="https://pradipgharge.netlify.app"><img src="">Portfolio</a></li>
+        </ul>
     </div>
     
 </body>

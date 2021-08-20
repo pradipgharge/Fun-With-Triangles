@@ -9,19 +9,134 @@
 </head>
 <body>
     <nav class="nav-bar">
-        <a class="nav-pills links" href="index.html">Home</a>
-        <a class="nav-pills links" href="sumOfAngles.html">Angles</a>
-        <a class="nav-pills links" href="calculateHypotenuse.html">Hypotenuse</a>
-        <a class="nav-pills links"
-        href="calculateArea.html">Area</Area></a>
-        <a class="nav-pills links"
+        <a class="nav-pills" href="index.html">Home</a>
+        <a class="nav-pills" href="anglesOfTriangle.html">Angles</a>
+        <a class="nav-pills" href="calculateHypotenuse.html">Hypotenuse</a>
+        <a class="nav-pills"
+        href="calculateArea.html">Area</a>
+        <a class="nav-pills link-active"
         href="triangleQuiz.html">Quiz</a>
     </nav>
 
     <div class="container">
         <h1 class="heading">Test your knowledge with triangle quiz !!</h1>
-        <div class="card-list">
-            
+        <form class="form">
+            <div class="question-box">
+                <p class="quiz-question">1. Which Triangle has all three equal sides ?</p>
+                <div class="option-set">
+                    <label class="quiz-labels"><input type="radio" name="question-1" value="Equilateral"/> Equilateral<label>
+                
+                    <label class="quiz-labels"><input type="radio" name="question-1" value="Scalene"/> Scalene</label>
+                            
+                    <label  class="quiz-labels"><input type="radio" name="question-1" value="Right Angled"/> Right Angled</label>
+                </div>
+            </div>
+
+            <div class="question-box">
+                <p class="quiz-question">2. Which Triangle has all three sides different ?</p>
+                <div class="option-set">
+                    <label class="quiz-labels"><input type="radio" name="question-2" value="Scalene"/> Scalene<label>
+                
+                    <label class="quiz-labels"><input type="radio" name="question-2" value="Equilateral"/> Equilateral</label>
+                            
+                    <label class="quiz-labels"><input type="radio" name="question-2" value="Isosceles"/> Isosceles</label>
+                </div>
+            </div>
+
+            <div class="question-box">
+                <p class="quiz-question">3. The longest side of a right angled triangle is known as ?</p>
+                <div class="option-set">
+                    <label class="quiz-labels"><input type="radio" name="question-3" value="Altitude"/> Altitude<label>
+                
+                    <label class="quiz-labels"><input type="radio" name="question-3" value="Hypotenuse"/> Hypotenuse</label>
+                            
+                    <label  class="quiz-labels"><input type="radio" name="question-3" value="Angle Bisector"/> Angle Bisector</label>
+                </div>
+            </div>
+
+            <div class="question-box">
+                <p class="quiz-question">4. The point of intersection of medians of a triangle is known as ?</p>
+                <div class="option-set">
+                    <label class="quiz-labels"><input type="radio" name="question-4" value="Orthocentre"/> Orthocentre<label>
+                
+                    <label class="quiz-labels"><input type="radio" name="question-4" value="Centroid"/> Centroid</label>
+                            
+                    <label class="quiz-labels"><input type="radio" name="question-4" value="Circumcentre"/> Circumcentre</label>
+                </div>
+            </div>
+
+            <div class="question-box">
+                <p class="quiz-question">5. The formula used to calculate hypotenuse of right angled triangle is known as ?</p>
+                <div class="option-set">
+                    <label class="quiz-labels"><input type="radio" name="question-5" value="Pascal's law"/> Pascal's law<label>
+                
+                    <label class="quiz-labels"><input type="radio" name="question-5" value="Euclid's Theorem"/> Euclid's Theorem</label>
+                            
+                    <label  class="quiz-labels"><input type="radio" name="question-5" value="Pythagoras Theorem"/> Pythagoras Theorem</label>
+                </div>
+            </div>
+
+            <div class="question-box">
+                <p class="quiz-question">6. Which triangle has all angles less than 90°?</p>
+                <div class="option-set">
+                    <label class="quiz-labels"><input type="radio" name="question-6" value="Obtuse angle triangle"/> Obtuse angle triangle<label>
+                
+                    <label class="quiz-labels"><input type="radio" name="question-6" value="Acute angle triangle"/> Acute angle triangle</label>
+                            
+                    <label class="quiz-labels"><input type="radio" name="question-6" value="Right Angled"/> Right Angled</label>
+                </div>
+            </div>
+
+            <div class="question-box">
+                <p class="quiz-question">7. If two angles of a triangle are 45° and 60° what will be the third angle?</p>
+                <div class="option-set">
+                    <label class="quiz-labels"><input type="radio" name="question-7" value="60°"/> 60°<label>
+                
+                    <label class="quiz-labels"><input type="radio" name="question-7" value="80°ß"/> 80°</label>
+                            
+                    <label  class="quiz-labels"><input type="radio" name="question-7" value="75°"/> 75°</label>
+                </div>
+            </div>
+
+            <div class="question-box">
+                <p class="quiz-question">8. The branch of mathematics which studies relation between sides and angles of triangle is called ?</p>
+                <div class="option-set">
+                    <label class="quiz-labels"><input type="radio" name="question-8" value="Arithmetic"/> Arithmetic<label>
+                
+                    <label class="quiz-labels"><input type="radio" name="question-8" value="Trigonometry"/> Trigonometry</label>
+                            
+                    <label class="quiz-labels"><input type="radio" name="question-8" value="Algebra"/> Algebra</label>
+                </div>
+            </div>
+
+            <div class="question-box">
+                <p class="quiz-question">9. If the height of a triangle is 10cm and base is 5cm then area of triangle is?</p>
+                <div class="option-set">
+                    <label class="quiz-labels"><input type="radio" name="question-9" value="30"/> 30 cm sq<label>
+                
+                    <label class="quiz-labels"><input type="radio" name="question-9" value="25"/> 25 cm sq</label>
+                            
+                    <label  class="quiz-labels"><input type="radio" name="question-9" value="50"/> 50 cm sq</label>
+                </div>
+            </div>
+
+            <div class="question-box">
+                <p class="quiz-question">10. The sum of interior angles of a triangle is equal to  ?</p>
+                <div class="option-set">
+                    <label class="quiz-labels"><input type="radio" name="question-10" value="360°"/> 360°<label>
+                
+                    <label class="quiz-labels"><input type="radio" name="question-10" value="180°"/> 180°</label>
+                            
+                    <label class="quiz-labels"><input type="radio" name="question-10" value="90°"/> 90°</label>
+                </div>
+            </div>
+        </form>
+
+        <button id="btn-check">Submit</button>
+        <div class="output-div">
+            <div id="triangle-hypotenuse">
+                Result will be displayed here !
+            </div>
         </div>
     </div>
     
