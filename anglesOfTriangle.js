@@ -1,4 +1,4 @@
-var inputAngles = document.querySelectorAll(".input-angle");
+var inputAngles = document.querySelectorAll(".inputs");
 var btnCheck = document.querySelector("#btn-check");
 var outputDiv = document.querySelector("#isTriangle");
 
