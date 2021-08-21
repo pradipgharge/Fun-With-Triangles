@@ -125,16 +125,15 @@ body
 }
 
 .question-box{
-    background-color:rgb(252, 232, 206);
+    background-color:rgb(238, 219, 194);
     border-radius: 1rem;
-    border: 2px solid rgb(250, 206, 148);
+    border: 2px solid rgb(238, 218, 193);
     padding: 1rem;
     margin: 1rem auto;
     text-align:start;
     max-width: 650px;
-    
-      
 }
+
 .quiz-question{
     font-size: 1.3rem;
 }
@@ -146,6 +145,10 @@ body
 .quiz-labels{
     padding:0.8rem;
     
+}
+
+#isTriangle{
+    padding: 0.2rem;
 }
 
 
